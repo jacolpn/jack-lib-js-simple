@@ -7,7 +7,7 @@ Install the library by `npm install jack-lib-js-simple`.
 ## How to use
 If you used npm, just import the file:
 ```js
-  import Console from 'jack-lib-js-simple';
+  import { Console } from 'jack-lib-js-simple';
 ```
 
 And now you can use it like:

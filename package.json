@@ -1,11 +1,12 @@
 {
   "name": "jack-lib-js-simple",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple library javascript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": ["javascript"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacolpn/jack-lib-js-simple.git"

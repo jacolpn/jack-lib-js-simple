@@ -1,7 +1,7 @@
 {
   "name": "jack-lib-js-simple",
-  "version": "1.0.4",
-  "description": "A simple library javascript",
+  "version": "1.0.0",
+  "description": "A simple library JavaScript",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

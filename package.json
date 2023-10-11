@@ -1,12 +1,15 @@
 {
   "name": "jack-lib-js-simple",
-  "version": "1.0.0",
+  "version": "20.0.0",
   "description": "A simple library JavaScript",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "npx ts ./src/index.ts -o dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["javascript"],
+  "keywords": [
+    "javascript"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jacolpn/jack-lib-js-simple.git"
@@ -16,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jacolpn/jack-lib-js-simple/issues"
   },
-  "homepage": "https://github.com/jacolpn/jack-lib-js-simple#readme"
+  "homepage": "https://github.com/jacolpn/jack-lib-js-simple#readme",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
 }
